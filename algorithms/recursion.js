@@ -1,8 +1,8 @@
-const recursiveFiboNacci = (n) => {
-  const fib = [0, 1];
-  for (i = 2; i < n; i++) {
-    fib[i] = fib[i - 1] + fib[i - 2];
+const recursiveFactorial = (n) => {
+  if (n === 0) {
+    return 1;
   }
-  return fib;
+  return n * recursiveFactorial(n - 1);
 };
-console.log(recursiveFiboNacci(6));
+console.log(recursiveFactorial(0));
+console.log(recursiveFactorial(4));
