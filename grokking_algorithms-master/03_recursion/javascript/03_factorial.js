@@ -1,5 +1,4 @@
 /**
- * Consider the factorial of the number
  * @param {number} x Number
  * @returns {number} Result
  */
